@@ -1,0 +1,32 @@
+const fieldList = [
+    'school.name',
+    'school.minority_serving',
+    'school.title_iv.eligibility_type',
+    'school.institutional_characteristics.level',
+    'school.women_only',
+    'school.men_only',
+    'school.religious_affiliation',
+    'school.city',
+    'school.state',
+    'school.school_url',
+    'location',
+    'id',
+    'latest.admissions.sat_scores',
+    'latest.admissions.act_scores',
+    'latest.admissions.admission_rate.overall',
+    'latest.student.grad_students',
+    'latest.student.size',
+    'latest.student.share_lowincome',
+    'latest.student.share_highincome',
+    'latest.student.share_middleincome',
+    'latest.student.demographics.race_ethnicity',
+    'latest.student.demographics.men',
+    'latest.student.demographics.women',
+    'latest.student.demographics.median_family_income',
+    'latest.student.demographics.median_hh_income',
+    'latest.student.demographics.avg_family_income',
+    'latest.cost.tuition.out_of_state',
+    'latest.cost.tuition.in_state'
+];
+
+module.exports = fieldList
