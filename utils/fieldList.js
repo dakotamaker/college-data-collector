@@ -1,5 +1,9 @@
 const fieldList = [
     'school.name',
+    'school.alias',
+    'school.religious_affiliation',
+    'latest.cost.net_price.public.by_income_level',
+    'latest.completion.rate_suppressed',
     'school.minority_serving',
     'school.title_iv.eligibility_type',
     'school.institutional_characteristics.level',
@@ -26,7 +30,10 @@ const fieldList = [
     'latest.student.demographics.median_hh_income',
     'latest.student.demographics.avg_family_income',
     'latest.cost.tuition.out_of_state',
-    'latest.cost.tuition.in_state'
+    'latest.cost.tuition.in_state',
+    'latest.earnings',
+    'latest.academics.program.degree',
+    'latest.academics.program_percentage'
 ];
 
 module.exports = fieldList

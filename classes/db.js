@@ -28,7 +28,7 @@ class Database {
         let valuesString = valueStrings.join(',')
         let valueParameters = [].concat(...valueParams);
 
-        this.connection.query(`INSERT INTO ${TABLE_NAME} ${columns} VALUES ${valuesString}`, valueParameters, (err, results) => {
+        this.connection.query(`INSERT INTO ${TABLE_NAME} ${columns} VALUES ${valuesString}`, valueParameters, (err) => {
             console.log(err);
             process.exit(err ? -1 : 0)
         })

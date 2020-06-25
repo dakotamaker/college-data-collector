@@ -43,7 +43,7 @@ class HttpRequests {
         }).then(response => {
             return responseToDBJson(response.data.results);
         }).catch(err => {
-            return err;
+            new Error(err);
         });
     }
 }
